@@ -1,8 +1,46 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Installation
 
-Currently, two official plugins are available:
+1. Clone the repository:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   git clone https://github.com/NSINGHRAJPUT/books-frontend.git
+
+2. Navigate to the project directory:
+
+cd books-frontend
+
+
+3. Install dependencies:
+
+npm install
+
+
+
+Development
+
+To run the project locally for development:
+
+npm run dev
+
+The project will be available at http://localhost:5173.
+
+Build
+
+To build the project for production:
+
+npm run build
+
+Deployment
+
+After building the project, the dist folder can be deployed to your server of choice.
+
+Scripts
+
+npm run dev: Starts the development server.
+
+npm run build: Builds the project for production.
+
+npm run lint: Lints the codebase using ESLint.
+
+npm run format: Formats the code using Prettier.
